@@ -5,17 +5,20 @@ h1 {
 body{
     background-color: #B3CEE5;
     color: rgb(48, 47, 47);
+
 }
 #profile_pic{
+    border-radius: 50%;
     height: 40%;
 }
 
 .social_icon{
     height: 50px;
+    padding: 10px;
 }
 
 a{
-    color: #262626;
+    color:navy;
     text-decoration: none;
 }
 
