@@ -1,0 +1,28 @@
+h1 {
+    font-size : 5em;
+}
+
+body{
+    background-color: #B3CEE5;
+    color: rgb(48, 47, 47);
+}
+#profile_pic{
+    height: 40%;
+}
+
+.social_icon{
+    height: 50px;
+}
+
+a{
+    color: #262626;
+    text-decoration: none;
+}
+
+/* VARIOUS SIZING UNITS
+    px,
+    em, rem,
+    %,
+    in, cm
+    vh, vw  : relative to size of the screen 
+*/
