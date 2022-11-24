@@ -1,31 +1,175 @@
-h1 {
-    font-size : 5em;
+#introduction p{
+    font-size : 1.25em;
+    margin-bottom: 0px;
+    border-bottom:0px;
 }
+
+#introduction h1{
+    font-size : 4em;
+    margin-top:0px;
+    margin-bottom: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+#projects h2{
+    font-size : 1.25em;
+}
+
+#introduction h2{
+    font-size : 1.5em;
+    margin-top: 0px;
+    border-top:0px;
+}
+
 
 body{
-    background-color: #B3CEE5;
-    color: rgb(48, 47, 47);
-
-}
-#profile_pic{
-    border-radius: 50%;
-    height: 40%;
+    text-align: center;
+    font-family: 'Maven Pro', Montserrat, Verdana, sans-serif;
+    /* font-weight: 600; */
+    margin: 0px;
+    word-wrap: break-word;
 }
 
-.social_icon{
-    height: 50px;
-    padding: 10px;
+strong{
+    font-weight: 600;
 }
 
-a{
-    color:navy;
-    text-decoration: none;
+header{
+    font-size : 1.2em;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+    top:0;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
 }
 
-/* VARIOUS SIZING UNITS
-    px,
-    em, rem,
-    %,
-    in, cm
-    vh, vw  : relative to size of the screen 
-*/
+footer{
+    padding: 2em;
+    padding-left: 5em;
+    text-align: left;
+    background-color: #494949;
+    color: white;
+}
+
+#introduction{
+    /* text-align: left; */
+    margin-left: 7em;
+    margin-right: 7em;
+    display:flex;
+    align-content: center;
+    min-height:90vh;
+}
+
+#introduction .left{
+    text-align: left;
+}
+
+#introduction .center{
+    padding-right: 13em;
+    text-align: center;
+}
+
+#about{
+    padding: 7em;
+}
+
+#projects{
+    padding: 7em;
+    padding-top:4em;
+    padding-bottom:5em;
+
+}
+
+#contact{
+    padding: 7em;
+    padding-top: 5em;
+    padding-bottom:10em;
+}
+
+#projects-content{
+    text-align: center;
+    display:flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content:center;
+}
+
+#projects h1{
+    padding-bottom: 1em;
+}
+
+#projects p{
+    padding-left:4em;
+    padding-right:4em;
+}
+
+
+.row {
+    display: flex;
+    align-items: center;
+    align-content: center; 
+    justify-content: center;
+}
+
+.project-row {
+    display: flex;
+    align-items: start;
+    align-content: center; 
+    justify-content: center;
+}
+
+.row-4{
+    display:flex;
+}
+
+
+.column{
+    width:50%;
+    height:auto;
+}
+
+#title{
+    order:1;
+}
+
+#logo{
+    order:2;
+}
+
+
+#about  .description {
+    text-align: left;
+}
+
+@media screen and (max-width: 640px) {
+    .column{
+        width:100%;
+        height:auto;
+    }
+    .row {
+        flex-wrap: wrap;
+    }
+    #about  .description{
+        padding-top: 2em;
+    }
+    #title{
+        order:2;
+    }
+    
+    #logo{
+        order:1;
+    }
+    .project-row{
+        flex-wrap: wrap;
+    }
+    #icssc{
+        padding-top:2em;
+    }
+    .row-4{
+        flex-wrap: wrap;
+    }
+    
+}
+

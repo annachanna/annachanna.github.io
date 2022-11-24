@@ -1,0 +1,47 @@
+body{
+    background-color: #FFFFFF;
+    color: #494D5B;
+}
+
+header{
+    background-color: #ffffffb9;
+}
+
+#about h1{
+    color:#FF5D73; 
+}
+
+
+
+.accent-color{
+    color:#FF5D73;  
+}
+
+#introduction p{
+    color:#FF5D73; 
+}
+
+#introduction h2{
+    color:#494d5b6f 
+}
+
+
+header li a:hover {
+    color: #FF5D73;
+}
+
+#resume a:hover {
+    /* background-color: #0000002b; */
+    background-color: #ff5d73da;
+}
+
+header li a:active{
+    color: #FF5D73;
+}
+
+
+#projects{
+    background-color: #FF5D73;
+    color: white;
+}
+

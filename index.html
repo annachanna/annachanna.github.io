@@ -1,28 +1,139 @@
-<html>
-    <head>
-        <title>Anna's Personal Website</title>
-        <meta charset = "utf-8">
-        <link rel="stylesheet" href = "styles.css">
-    </head>
-    <body>
-        <h1 style= "text-align: center;">Anna Chan</h1>
-        <div style = "text-align: center;">
-            <img src="img/annaChan.jpg" alt="Head shot of Anna Chan" id = "profile_pic" >
+<!doctype html>
+<html lang="en">
+
+<!--
+WRITTEN BY: Anna Chan
+EMAIL: chanan2@uci.edu
+-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Anna Chan">
+  <meta name="description" content="My portfolio website">
+
+  <!--CSS-->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="colorstyle.css">
+  <link rel="stylesheet" href="navstyle.css">
+
+  <link rel="stylesheet" href="imgstyle.css">
+  <!-- Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Maven+Pro">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab">
+  <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@600&display=swap" rel="stylesheet">
+  <!--Icons-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Anna Chan | Portfolio</title>
+</head>
+
+<body>
+  <header>
+      <ul>
+          <li id="resume"><a href="https://drive.google.com/file/d/1z6HOAkRsv8T7nPYuZ9nHSuhRX7XVYX8N/view?usp=sharing" target="_blank">Resume</a></li>
+          <li><a href="#contact"><span class=accent-color>03.</span> Contact</a></li>
+          <li><a href="#projects"><span class=accent-color>02.</span> Projects</a></li>
+          <li><a href="#about"><span class=accent-color>01.</span> About</a></li>
+
+      </ul>
+  </header>
+
+
+  <div id="introduction">
+    <div class="row">
+      <div class="column" id="title">
+        <div class="left">
+          <p>Hi, my name is </p>
+          <h1>Anna Chan</h1>
+          <h2>Aspiring Software Engineer</h2>
         </div>
-        
-        <div>
-            <p>Welcome to my personal website!</p>
-            <h2>Projects I'm Currently Working On</h2>
-            <ul>
-                <li>
-                <a href = "https://studentcouncil.ics.uci.edu/" target = "_blank"> 
-                    UCI ICS Student Council's Website</a>   
-                </li>
-                <li>CTC OC Habitats</li>
-            </ul>     
+        <div class="center">
+          <a href="#about" title="Jump to About Section"> <span class="fa fa-chevron-down" style="font-size:45px; color:#FF5D73"></span></a>
         </div>
-        <a href= "https://github.com/annachanna">
-            <img src = "img/githubIcon.png" class="social_icon" alt="Github Icon" >
-        </a>
-    </body>
+      </div>
+      <div class="column" id="logo">
+        <div class="left">
+          <img src="assets/img/anteater.png" alt="Anteater on the Internet" id = "anteater">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div id="about">
+    <div class="row">
+      <div class="column">
+        <img src="assets/img/annaChan.jpg" alt="Anna Chan" id = "headshot">
+      </div>
+      <div class="column">
+        <div class="description">
+          <h1><u>About</u></h1>
+          <p>I’m Anna. I’m a fourth year Computer Science major specializing in Information at UC Irvine. Immersed to the vast and expanding world of technology, I’m a full-stack developer with ever-growing interests and curiosity. Currently, I’m endeavoring to enrich my knowledge in the field of algorithms and biotechnology.</p>
+          <p>In my free time, I am involved in various campus organizations such as ICS Student Council, Commit the Change, Women in Computer Science, Climbing Club, and the Chinese Association of UCI.      </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="projects">
+    <h1><u>Projects</u></h1>
+    <div id="projects-content">
+      <div class="project-row">
+        <div class="column" id="och">
+          <img src="assets/img/ocHabitats.png" alt="Orange County Habitats" id = "oc-habitats-logo">
+          <h2>Orange County Habitats</h2>
+          <p>Constructed digital forms for their habitat overseers to provide them with better data on their conservation efforts!</p>
+        </div>
+
+        <div class="column" id="icssc">
+          <img src="assets/img/icsscLogo.png" alt="Information and Computer Science Student Council" id = "icssc-logo">
+          <h2>Information and Computer Science Student Council @ UCI</h2>
+          <p>Updated and maintained ICSSC’s official website by utilizing <strong>HTML</strong>, <strong>JavaScript</strong>, and <strong>CSS</strong>.</p>
+        </div>
+      </div>
+     
+    </div>
+
+  </div>
+
+  <div id="contact">
+    <h1><u>Contact Me!</u></h1>
+    <img src="assets/img/anteaterCube.png" alt="Anteater with a Rubix Cube" id = "anteater-cube">
+    <div id="socials-content">
+      <div class="row-4">
+        <div class="column">
+          <a href="mailto:chanan2@uci.edu" title="Email Address: chanan2@uci.edu">
+            <span class="fa fa-envelope" style="font-size:60px; color:#FF5D73"></span>
+          </a>
+          <p>Email</p>
+        </div>
+        <div class="column">
+          <a href="https://www.linkedin.com/in/annabchan/" title="LinkedIn Username: Anna B Chan">
+            <span class="fa fa-linkedin" style="font-size:60px; color:#FF5D73"></span>
+          </a>
+          <p>LinkedIn</p>
+        </div>
+        <div class="column">
+          <a href="https://github.com/annachanna" title="GitHub Username: Anna Channa">
+            <span class="fa fa-github" style="font-size:60px; color:#FF5D73"></span>
+          </a>
+          <p>GitHub</p>
+        </div>
+        <div class="column">
+          <a href="https://www.instagram.com/anna.chaaan/" title="Instagram Username: Anna Dot Chaaan">
+            <span class="fa fa-instagram" style="font-size:60px; color:#FF5D73"></span>
+          </a>
+          <p>Instagram</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    © 2022 Anna Chan. All Rights Reserved.
+  </footer>
+
+</body>
 </html>
